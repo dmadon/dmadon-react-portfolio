@@ -1,10 +1,31 @@
+:root{
+  --primary-color: #203864;
+  --accent-color-1: #A4041F;
+  --accent-color-2: #B2DE82;
+  --accent-color-3: #FFE699;
+  --accent-color-4: #fff;
+}
+
+
+@font-face {
+  font-family: ModernLoveGrunge;
+  src: url('./fonts/fontModernLoveGrunge.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: Candara;
+  src: url('./fonts/Candara.ttf') format("truetype");
+}
+
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: ModernLoveGrunge, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;  
 }
 
 code {
@@ -12,6 +33,115 @@ code {
     monospace;
 }
 
+h1{
+  font-family: ModernLoveGrunge;
+  color: var(--accent-color-2);
+  font-size: 80px;
+}
+h2{
+  font-family: ModernLoveGrunge;
+  color: var(--accent-color-2);
+  font-size: 80px;
+  text-shadow: 5px 2px 2px rgb(0 0 0);
+}
+h3{
+  font-family: ModernLoveGrunge;
+  font-size: 50px;
+  text-shadow: 3px 1.5px 1.5px rgb(0 0 0);
+  color:var(--primary-color);
+}
+h4{
+  border: var(--accent-color-1);
+}
+p{
+  padding: 20px 0;
+}
+
 nav li {
   cursor: pointer;
+  font-size: 3rem;
+
 }
+
+header {
+  color: var(--accent-color-4);
+  background-color: var(--primary-color);
+  text-shadow: 5px 2px 2px rgb(0 0 0);
+  border-bottom: 10px solid var(--accent-color-2);
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--accent-color-4);
+  
+}
+
+nav a:hover, .nav-active {
+  color: var(--accent-color-2)
+}
+
+nav li{
+  font-family: modernLoveGrunge;  
+}
+
+.grow:hover {
+  text-shadow: 2px 2px 20px var(--accent-color-3);  
+  transition: text-shadow .3s ease-in-out;
+  transform:scale(2);
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 12px
+}
+
+#about-me ul {
+  text-indent: 0;
+  padding-left: 50px;
+}
+#headshot{
+  margin: 0 auto;
+}
+.list, .sub-list, li, p{
+  font-family: Candara;
+  font-size: 30px;
+  color: var(--primary-color);
+  line-height: 1.5;
+}
+.list, .sub-list{
+  text-indent: 20px;
+}
+.sub-list li{
+  list-style: none;
+}
+
+article img{
+  width: 100%;
+}
+
+.project-wrapper {
+  width:45%;
+  border: 2px solid black;
+  ;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section-title{    
+  border-bottom: 10px solid var(--primary-color);
+  width: 100%;
+  margin:0 auto 20px;
+  /* padding: 20px 0; */
+
+}
+
+#about-me h2, #about-me h3{
+  color: var(--accent-color-2);
+  
+}
+
+
+
+

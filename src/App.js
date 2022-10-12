@@ -1,20 +1,45 @@
 import React,{useState} from 'react';
-import Nav from './components/Nav'
+import Nav from './components/Nav';
+import About from './components/pages/About';
+import Portfolio from './components/pages/Portfolio';
+import Contact from './components/pages/Contact';
+import Resume from './components/pages/Resume';
+
 
 function App() {
 
-  const [navOptions] = useState(['About Me','Portfolio','Contact','Resume']);
+  const [navOptions] = useState(['About','Portfolio','Contact','Resume']);
+  const [currentPage, setCurrentPage] = useState('About');
 
-  const [currentOption, setCurrentOption] = useState(navOptions[0]);
+  const pageChanger = () => {
+    if (currentPage === 'About'){
+      return <About />
+    }
+    else if (currentPage === 'Portfolio'){
+      return <Portfolio />
+    }
+    else if (currentPage === 'Contact'){
+      return <Contact />
+    }
+    else if (currentPage === 'Resume'){
+      return <Resume />
+    }
+  }
+
 
   return (
     <div className="App">
 
       <Nav 
         navOptions = {navOptions}
-        currentOption = {currentOption}
-        setCurrentOption = {setCurrentOption}      
+        currentPage = {currentPage}
+        setCurrentPage = {setCurrentPage}      
       />
+
+      {pageChanger()}
+     
+      
+      
 
     </div>
   );
