@@ -1,11 +1,19 @@
 import React from 'react';
-import headshot from '../../assets/Deanna_headshot.jpg'
+import headshot from '../../assets/Deanna_headshot.jpg';
+import {motion} from 'framer-motion';
 
 function About(){
 
     return (
 
-    <section className="about-me container d-flex flex-column" id="about-me">
+    <motion.section 
+      className="about-me container d-flex flex-column"
+      id="about-me"
+      initial={{opacity:.1}}
+      animate={{opacity: 1}}
+      transition={{duration: 2}}
+      >
+
       <img id="headshot" className="mt-3" src={headshot} alt="Deanna Madon closeup, smiling" />
       <article>
         <h2 className="section-title text-center py-3">About Me</h2>
@@ -23,7 +31,8 @@ function About(){
               </ul>
           </ul>
       </article>
-    </section>
+
+    </motion.section>
     )
 
 }

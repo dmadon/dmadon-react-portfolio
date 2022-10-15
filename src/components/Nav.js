@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {motion} from 'framer-motion';
 
 
 function Nav(props){
@@ -7,24 +8,38 @@ function Nav(props){
 
     return(
         <header className='d-flex flex-row justify-content-between p-4' >
-            <h1>Deanna Madon</h1>
-            <nav>                
+            {/* animate the header on page load using the imported framer-motion package */}
+            <motion.h1 
+                initial={{opacity:0, y:-50}}
+                animate={{opacity:1, y:0}}                
+                transition={{duration: 1}}>
+                    Deanna Madon
+            </motion.h1>
+
+            <nav>   
+
                 <ul className="nav">
-                    {navOptions.map((option) => (
-                        <li className="mx-3" key={option}>
-                            <a  href={`#${option}`} className={`${currentPage === option && 'nav-active'} grow`}
-                                onClick={() => {setCurrentPage(option)
-                                console.log(option)
-                            }}>
-                                {option}
-                            </a>
-                        </li> 
+                    {navOptions.map((option,i) => (
+                        // animate nav options on page load using the imported framer-motion package
+                        <motion.div
+                            key={option}
+                            initial={{opacity:0, y:-50}}
+                            animate={{opacity:1, y:0}}
+                            transition={{duration:2, delay: i*0.5}}
+                        >
+                            <li className="mx-3">
+                                <a  href={`#${option}`} className={`${currentPage === option && 'nav-active'} grow`}
+                                    onClick={() => {setCurrentPage(option)
+                                    console.log(option)
+                                }}>
+                                    {option}
+                                </a>
+                            </li> 
+                        </motion.div>
                          
-                    ))}
-                   
-                
-                
+                    ))}                           
                 </ul>
+
             </nav>
         </header>
     )
