@@ -25,10 +25,10 @@ function Nav(props){
                             key={option}
                             initial={{opacity:0, y:-50}}
                             animate={{opacity:1, y:0}}
-                            transition={{duration:2, delay: i*0.5}}
+                            transition={{duration:1.3, delay: i*0.5}}
                         >
                             <li className="mx-3">
-                                <a  href={`#${option}`} className={`${currentPage === option && 'nav-active'} grow`}
+                                <a  href={`#${option}`} className={`${currentPage === option && 'nav-active'} highlight`}
                                     onClick={() => {setCurrentPage(option)
                                     console.log(option)
                                 }}>
