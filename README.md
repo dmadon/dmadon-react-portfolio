@@ -27,3 +27,4 @@ This is a front-end application that uses the following packages:
 
 ## Preview
 
+![image](https://user-images.githubusercontent.com/99852346/196056030-6142b7e6-2f7e-494a-9601-2a2a200eef86.png)
