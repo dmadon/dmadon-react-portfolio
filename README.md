@@ -21,9 +21,9 @@ This is a front-end application that uses the following packages:
 
 ## Links
 
-[View the deployed application](https://dmadon.github.io/dmadon-react-portfolio)
+[View the deployed application](http://dmadon.github.io/dmadon-react-portfolio)
 
-[View the GitHub repository](http://github.com/dmadon/dmadon-react-portfolio)
+[View the GitHub repository](https://github.com/dmadon/dmadon-react-portfolio)
 
 ## Preview
 
