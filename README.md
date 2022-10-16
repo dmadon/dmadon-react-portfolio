@@ -23,7 +23,7 @@ This is a front-end application that uses the following packages:
 
 [View the deployed application](https://dmadon.github.io/dmadon-react-portfolio)
 
-[View the GitHub repository](https://github.com/dmadon/dmadon-react-portfolio)
+[View the GitHub repository](http://github.com/dmadon/dmadon-react-portfolio)
 
 ## Preview
 

@@ -1,6 +1,6 @@
 {
   "name": "dmadon-react-portfolio",
-  "homepage":"https://dmadon.github.io/dmadon-react-portfolio",
+  "homepage":"http://dmadon.github.io/dmadon-react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
