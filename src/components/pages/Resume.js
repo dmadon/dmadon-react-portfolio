@@ -15,7 +15,7 @@ function Resume(){
     const itemVariants = {
         start: {            
                 y: -100,
-                rotate: 300,
+                rotate: 340,
                 opacity:0  
         },
         end:{ 
@@ -25,10 +25,7 @@ function Resume(){
                 transition: {
                     duration: 2
                 },
-                
-                
-        }
-        
+        }        
     }
    
     return (

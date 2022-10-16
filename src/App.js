@@ -1,4 +1,5 @@
 import React,{useState} from 'react';
+import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './components/pages/About';
 import Portfolio from './components/pages/Portfolio';
@@ -32,13 +33,17 @@ function App() {
   return (
     <div className="App">
 
+      <Header 
+        navOptions = {navOptions}
+        currentPage = {currentPage}
+        setCurrentPage = {setCurrentPage} 
+      />
       
-      
-      <Nav 
+      {/* <Nav 
         navOptions = {navOptions}
         currentPage = {currentPage}
         setCurrentPage = {setCurrentPage}      
-      />
+      /> */}
 
 
 

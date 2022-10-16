@@ -1,5 +1,5 @@
 import React from "react";
-import {UilGithub} from '@iconscout/react-unicons';
+
 
 function Project({title,href,imgSrc,gitHub}) {
 
@@ -9,7 +9,7 @@ function Project({title,href,imgSrc,gitHub}) {
             <div className="project-title d-flex flex-row justify-content-between align-items-center">
                 <h4>{title}</h4>            
                 <a href={gitHub} target="_blank">
-                    <UilGithub className="gh-icon"/>
+                    <i class="project-icon fa-brands fa-github"></i>
                 </a>        
             </div>
                                             
