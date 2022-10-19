@@ -33,7 +33,7 @@ function Portfolio(){
             title:'Weather Dashboard',
             href: 'https://dmadon.github.io/weather-dashboard/',
             imgSrc:`${imgWeatherDashboard}`,
-            gitHub:'https://dmadon.github.io/weather-dashboard/'
+            gitHub:'https://github.com/dmadon/weather-dashboard/'
         },
         {
             title:'Note Taker',
