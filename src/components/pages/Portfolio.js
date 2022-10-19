@@ -3,6 +3,8 @@ import imgAbsenceReporting from '../../assets/Absence Reporting Screenclip RESIZ
 import imgAdoptAFriend from '../../assets/Adopt-a-Friend Screenshot RESIZED.png';
 import imgJsQuiz from '../../assets/js-quiz-screenclip.jpg';
 import imgRunBuddy from '../../assets/Run Buddy Screen Clip RESIZED.jpg';
+import imgWeatherDashboard from '../../assets/weather-dashboard-screenshot.png';
+import imgNoteTaker from '../../assets/note-taker-screenshot.jpg';
 import Project from '../Project'
 import {motion} from 'framer-motion';
 
@@ -28,11 +30,25 @@ function Portfolio(){
             gitHub:'https://github.com/dmadon/js-quiz' 
         },
         {
+            title:'Weather Dashboard',
+            href: 'https://dmadon.github.io/weather-dashboard/',
+            imgSrc:`${imgWeatherDashboard}`,
+            gitHub:'https://dmadon.github.io/weather-dashboard/'
+        },
+        {
+            title:'Note Taker',
+            href:'https://note-taker-module11.herokuapp.com/',
+            imgSrc:`${imgNoteTaker}`,
+            gitHub:'https://github.com/dmadon/note-taker' 
+        },
+        {
             title:'Run Buddy',
             href:'https://dmadon.github.io/run-buddy/',
             imgSrc:`${imgRunBuddy}`,
             gitHub:'https://github.com/dmadon/run-buddy' 
         },
+        
+
     ])
 
     return (  
