@@ -2,7 +2,7 @@ import React,{useState} from "react";
 import imgAbsenceReporting from '../../assets/Absence Reporting Screenclip RESIZED.jpg';
 import imgAdoptAFriend from '../../assets/Adopt-a-Friend Screenshot RESIZED.png';
 import imgJsQuiz from '../../assets/js-quiz-screenclip.jpg';
-import imgRunBuddy from '../../assets/Run Buddy Screen Clip RESIZED.jpg';
+import imgTooGoodToWaste from '../../assets/too-good-to-waste-homepage-screenshot.png';
 import imgWeatherDashboard from '../../assets/weather-dashboard-screenshot.png';
 import imgNoteTaker from '../../assets/note-taker-screenshot.jpg';
 import Project from '../Project'
@@ -42,10 +42,10 @@ function Portfolio(){
             gitHub:'https://github.com/dmadon/note-taker' 
         },
         {
-            title:'Run Buddy',
-            href:'https://dmadon.github.io/run-buddy/',
-            imgSrc:`${imgRunBuddy}`,
-            gitHub:'https://github.com/dmadon/run-buddy' 
+            title:'Too Good to Waste',
+            href:'https://ancient-ocean-76067.herokuapp.com/',
+            imgSrc:`${imgTooGoodToWaste}`,
+            gitHub:'https://github.com/dmadon/too-good-to-waste' 
         },
         
 
