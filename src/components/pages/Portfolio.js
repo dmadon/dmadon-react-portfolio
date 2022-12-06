@@ -58,7 +58,7 @@ function Portfolio(){
             <section id="projects" className="container">
                 <h2 className="section-title text-center py-3">Projects</h2>
 
-                <div className="d-flex flex-row flex-wrap justify-content-between">
+                <div id="project-holder" className="d-flex flex-row flex-wrap justify-content-between">
                     
                     {projects.map((project,i) => (
 

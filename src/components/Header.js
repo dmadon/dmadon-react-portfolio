@@ -6,8 +6,9 @@ function Header({currentPage, setCurrentPage, navOptions}){
 
     return (
 
-        <header className='d-flex flex-row justify-content-between p-4' >
-            <motion.h1 
+        <header className='d-flex flex-row flex-wrap justify-content-between p-4' >
+            <motion.h1
+                className="col-md-4 col-sm-12" 
                 initial={{opacity:0, y:-50}}
                 animate={{opacity:1, y:0}}                
                 transition={{duration: 1}}

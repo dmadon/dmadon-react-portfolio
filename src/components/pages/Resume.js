@@ -39,101 +39,103 @@ function Resume(){
 
             <div className="container">
                 <h2 className="section-title text-center py-3">Proficiencies</h2>
-            </div>
-            <div className="skillsContainer d-flex flex-row justify-content-around">
-                <div>
-                    <h3 className="text-accent-2">Front-end</h3>
-                    <motion.ul>
-                        <motion.li
-                            variants={itemVariants}
-                            initial="start"
-                            animate="end"                           
-                        >
-                                HTML
-                        </motion.li>
+            
+                <div className="skillsContainer d-flex flex-row justify-content-between flex-wrap">
+                    
+                    <div className="col-md-6 skills-column">
+                        <h3 className="text-accent-2 text-center">Front-end</h3>
+                        <motion.ul>
+                            <motion.li
+                                variants={itemVariants}
+                                initial="start"
+                                animate="end"                           
+                            >
+                                    HTML
+                            </motion.li>
 
-                        <motion.li
-                            variants={itemVariants}
-                            initial="start"
-                            animate="end"  
-                        >
-                            CSS
-                        </motion.li>
-                        <motion.li
-                            variants={itemVariants}
-                            initial="start"
-                            animate="end"  
-                        >
-                            JavaScript
-                        </motion.li>
-                        <motion.li
-                            variants={itemVariants}
-                            initial="start"
-                            animate="end"  
-                        >
-                            React
-                        </motion.li>
-                        <motion.li
-                            variants={itemVariants}
-                            initial="start"
-                            animate="end"  
-                        >
-                            Bootstrap
-                        </motion.li>
-                    </motion.ul>
+                            <motion.li
+                                variants={itemVariants}
+                                initial="start"
+                                animate="end"  
+                            >
+                                CSS
+                            </motion.li>
+                            <motion.li
+                                variants={itemVariants}
+                                initial="start"
+                                animate="end"  
+                            >
+                                JavaScript
+                            </motion.li>
+                            <motion.li
+                                variants={itemVariants}
+                                initial="start"
+                                animate="end"  
+                            >
+                                React
+                            </motion.li>
+                            <motion.li
+                                variants={itemVariants}
+                                initial="start"
+                                animate="end"  
+                            >
+                                Bootstrap
+                            </motion.li>
+                        </motion.ul>
+                    </div>
+
+                    <div className="col-md-6 skills-column">
+                        <h3 className="text-accent-2 text-center">Back-end</h3>
+                        <ul className="list">
+                            <motion.li
+                                variants={itemVariants}
+                                initial="start"
+                                animate="end"
+                            >APIs</motion.li>
+                            <motion.li
+                                variants={itemVariants}
+                                initial="start"
+                                animate="end"
+                            >Node</motion.li>
+                            <motion.li
+                                variants={itemVariants}
+                                initial="start"
+                                animate="end"
+                            >Express</motion.li>
+                            <motion.li
+                                variants={itemVariants}
+                                initial="start"
+                                animate="end"
+                            >MySQL</motion.li>
+                            <motion.li
+                                variants={itemVariants}
+                                initial="start"
+                                animate="end"
+                            >Sequelize ORM</motion.li>
+                            <motion.li
+                                variants={itemVariants}
+                                initial="start"
+                                animate="end"
+                            >MongoDB</motion.li>
+                            <motion.li
+                                variants={itemVariants}
+                                initial="start"
+                                animate="end"
+                            >Mongoose ODM</motion.li>
+                            <motion.li
+                                variants={itemVariants}
+                                initial="start"
+                                animate="end"
+                            >RESTful APIs</motion.li>
+                            <motion.li
+                                variants={itemVariants}
+                                initial="start"
+                                animate="end"
+                            >GraphQL</motion.li>
+                        </ul>
+                    </div>
+
                 </div>
-
-                <div>
-                    <h3 className="text-accent-2">Back-end</h3>
-                    <ul className="list">
-                        <motion.li
-                            variants={itemVariants}
-                            initial="start"
-                            animate="end"
-                        >APIs</motion.li>
-                        <motion.li
-                            variants={itemVariants}
-                            initial="start"
-                            animate="end"
-                        >Node</motion.li>
-                        <motion.li
-                            variants={itemVariants}
-                            initial="start"
-                            animate="end"
-                        >Express</motion.li>
-                        <motion.li
-                            variants={itemVariants}
-                            initial="start"
-                            animate="end"
-                        >MySQL</motion.li>
-                        <motion.li
-                            variants={itemVariants}
-                            initial="start"
-                            animate="end"
-                        >Sequelize ORM</motion.li>
-                        <motion.li
-                            variants={itemVariants}
-                            initial="start"
-                            animate="end"
-                        >MongoDB</motion.li>
-                        <motion.li
-                            variants={itemVariants}
-                            initial="start"
-                            animate="end"
-                        >Mongoose ODM</motion.li>
-                        <motion.li
-                            variants={itemVariants}
-                            initial="start"
-                            animate="end"
-                        >RESTful APIs</motion.li>
-                        <motion.li
-                            variants={itemVariants}
-                            initial="start"
-                            animate="end"
-                        >GraphQL</motion.li>
-                    </ul>
-                </div>
-
             </div>
 
 

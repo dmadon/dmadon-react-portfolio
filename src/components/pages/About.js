@@ -17,7 +17,7 @@ function About(){
       <img id="headshot" className="mt-3" src={headshot} alt="Deanna Madon closeup, smiling" />
       <article>
         <h2 className="section-title text-center py-3">About Me</h2>
-        <p >After working the last fifteen years as an office manager, I decided to take on a new challenge by making a career change and entering the software development world. I am currently working toward a professional certification in computer coding through SMU’s Coding Bootcamp. 
+        <p >After working the last fifteen years as an office manager, I decided to take on a new challenge by making a career change and entering the software development world. I am currently working toward a professional certificate in computer coding through SMU’s Full-Stack Web Development Bootcamp. 
         I have a bachelor's degree in music from Texas Woman's University and twenty-four years of work experience in a variety of different roles. In that time, I have learned the importance of collaboration and developed excellent professional communication skills. My most fulfilling projects have been the ones which have allowed me to problem solve and make processes run more efficiently.</p>
         <h3>My Core Beliefs</h3>
           <ul className="list">

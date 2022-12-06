@@ -6,7 +6,7 @@ function Nav({currentPage, setCurrentPage, navOptions}){
 
     return(
         <nav>
-            <ul className="nav">
+            <ul className="nav col-sm-12">
                 {navOptions.map((option,i) => (
                     <motion.div
                         key={option}
