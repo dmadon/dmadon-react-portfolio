@@ -48,12 +48,33 @@ h2{
 h3{
   font-family: ModernLoveGrunge;
   font-size: 50px;
-  text-shadow: 3px 1.5px 1.5px rgb(0 0 0);
+  text-shadow: 2px 1px 1px rgb(0 0 0);
   color:var(--primary-color);
 }
-h4{
-  border: var(--accent-color-1);
+
+
+.contact-info-line{
+  margin: 30px auto; 
 }
+.contact-info-line h3{
+  text-shadow: none;
+}
+.contact-info-line a{
+  text-decoration: underline solid var(--primary-color) 4px;
+  text-underline-offset: 10px;
+  font-family:ModernLoveGrunge;
+  font-size: 50px;
+  color: var(--primary-color);
+}
+.contact-info-line h3:hover{
+  color: var(--accent-color-2); 
+}
+
+.padding-right{
+  padding-right: 30px;
+}
+
+
 p{
   padding: 20px 0;
   margin: 0;
@@ -131,6 +152,14 @@ ul {
   font-size: 30px;
   color: var(--primary-color);
   line-height: 1.5;
+}
+
+#contact{
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:0 auto;
+  width:80%;
 }
 
 article img{
@@ -320,9 +349,15 @@ button:hover, .btn-container a:hover {
     padding-left:17px;
     text-align: left;
   }
+
+.contact-info-line h3, .contact-info-line a{
+    font-size: 2.25rem;
+
+}
   
 
 }
+
 
 /*MEDIA QUERY FOR SCREEN SIZES 844PX WIDE OR SMALLER*/
 
@@ -332,13 +367,9 @@ button:hover, .btn-container a:hover {
   .nav a{
       font-size: 2.5rem;      
   }  
-  .contact-info-line{
-      width: 80%;
-      justify-content: center;
-  }
+
   .contact-info-line h3, .contact-info-line a{
-      font-size: 40px;
-      margin: 20px 0;
+      font-size: 2rem;
   }
   article h3{
       font-size: 2.5rem;
@@ -356,12 +387,7 @@ button:hover, .btn-container a:hover {
 
 
 
-@media screen and (max-width: 991px){
-  
-  .skillsContainer{
-    width: 100%;
-  }
-}
+
 
 /*MEDIA QUERY FOR SCREEN SIZES 767PX WIDE OR SMALLER*/
 
@@ -375,13 +401,9 @@ button:hover, .btn-container a:hover {
   .nav a{
       font-size: 2rem;      
   }  
-  .contact-info-line{
-      width: 80%;
-      justify-content: center;
-  }
+ 
   .contact-info-line h3, .contact-info-line a{
-      font-size: 40px;
-      margin: 20px 0;
+      font-size: 1.5rem;
   }
   article h3, h3{
       font-size: 2.5rem;
@@ -429,11 +451,7 @@ button:hover, .btn-container a:hover {
       font-size: 20px;
   }
 
-  .contact-info-line h3, .contact-info-line a{
-      font-size: 30px;
-  }
 
-  
   .btn-container {
     width: 90%;
     margin:30px auto
@@ -461,14 +479,16 @@ button:hover, .btn-container a:hover {
   p, ul li{
       font-size: 15px;
   }
+
   .contact-info-line{
-      width: 80%;
-      justify-content: center;
+    display:block !important;
+    text-align: center;
   }
-  .contact-info-line h3, .contact-info-line a{
-      font-size: 25px;
-      margin: 15px 0;
+
+  .contact-info-line a{
+    text-decoration: underline solid var(--primary-color) 2px;
   }
+
   article h3, h3{
       font-size: 20px;
   }
@@ -511,30 +531,30 @@ button:hover, .btn-container a:hover {
   }
  
   .contact-info-line{
-    width: 80%;
+    width: 100%;
     justify-content: center;
   }
   .contact-info-line h3, .contact-info-line a{
-    font-size: 20px;
-    margin: 15px 0;  
+    font-size: 1.25rem;
   }
-  .contact-info-line a{
-    text-underline-offset: 2px;
-  }
-  .contact-info-line h3{
-    padding-right: 10px;
-  }
+
+  
   #projects h3{
     font-size: 15px;
     padding: 10px 0;
-  }
-  
-
- 
-  
-  
+  } 
   
 }
 
+  /*MEDIA QUERY FOR SCREEN SIZES 330PX WIDE OR SMALLER */
 
+@media screen and (max-width: 330px){
 
+  .contact-info-line h3, .contact-info-line a{
+    font-size: 1rem;
+  }
+
+  .skillsContainer{
+    width: 100%;
+  }
+}

@@ -48,7 +48,26 @@ function Contact(){
             
                 <h2 className="section-title text-center py-3">Contact Me</h2>
 
-                <form className="d-flex flex-column flex-wrap" id="contact-form" onSubmit={handleSubmit}>
+                <div class="contact-info-line d-flex flex-row">
+                    <h3 class="padding-right">Email:</h3>
+                    <a href="mailto: deanna.madon@gmail.com">
+                        <h3>deanna.madon@gmail.com</h3>
+                    </a>
+                </div>
+                <div class="contact-info-line d-flex flex-row">
+                    <h3 class="padding-right">LinkedIn:</h3>
+                    <a href="https://linkedin.com/in/deanna-madon">
+                        <h3>tinyurl.com/dmadonlinkedin</h3>
+                    </a>
+                </div>
+                <div class="contact-info-line d-flex flex-row">
+                    <h3 class="padding-right">Phone:</h3>
+                    <a href="tel: 8179155348">
+                        <h3>817.915.5348</h3>
+                    </a>
+                </div>
+
+                {/* <form className="d-flex flex-column flex-wrap" id="contact-form" onSubmit={handleSubmit}>
                     <div className="mb-5 d-flex flex-column align-items-center">
                         <label htmlFor="name">Your Name:</label>
                         <input type="text" name="name" onBlur={handleChange}></input>
@@ -71,7 +90,7 @@ function Contact(){
                     {errorMessage && (<div><p className='error-text text-center'>{errorMessage}</p></div>)}
 
 
-                </form>
+                </form> */}
 
 
             

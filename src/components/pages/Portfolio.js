@@ -12,6 +12,12 @@ function Portfolio(){
 
     const [projects] = useState([
         {
+            title:'Too Good to Waste',
+            href:'https://ancient-ocean-76067.herokuapp.com/',
+            imgSrc:`${imgTooGoodToWaste}`,
+            gitHub:'https://github.com/dmadon/too-good-to-waste' 
+        },        
+        {
             title:'Absence Reporting Tool',
             href:'https://absence-reporting.herokuapp.com/',
             imgSrc:`${imgAbsenceReporting}`,
@@ -41,12 +47,7 @@ function Portfolio(){
             imgSrc:`${imgNoteTaker}`,
             gitHub:'https://github.com/dmadon/note-taker' 
         },
-        {
-            title:'Too Good to Waste',
-            href:'https://ancient-ocean-76067.herokuapp.com/',
-            imgSrc:`${imgTooGoodToWaste}`,
-            gitHub:'https://github.com/dmadon/too-good-to-waste' 
-        },
+        
         
 
     ])

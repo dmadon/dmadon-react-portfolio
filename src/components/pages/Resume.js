@@ -44,7 +44,7 @@ function Resume(){
                     
                     <div className="col-md-6 skills-column">
                         <h3 className="text-accent-2 text-center">Front-end</h3>
-                        <motion.ul>
+                        <ul className="list">
                             <motion.li
                                 variants={itemVariants}
                                 initial="start"
@@ -81,7 +81,7 @@ function Resume(){
                             >
                                 Bootstrap
                             </motion.li>
-                        </motion.ul>
+                        </ul>
                     </div>
 
                     <div className="col-md-6 skills-column">
