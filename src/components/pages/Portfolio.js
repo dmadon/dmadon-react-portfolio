@@ -13,7 +13,7 @@ function Portfolio(){
     const [projects] = useState([
         {
             title:'Too Good to Waste',
-            href:'https://ancient-ocean-76067.herokuapp.com/',
+            href:'https://too-good-2-waste.herokuapp.com/',
             imgSrc:`${imgTooGoodToWaste}`,
             gitHub:'https://github.com/dmadon/too-good-to-waste' 
         },        
@@ -24,17 +24,17 @@ function Portfolio(){
             gitHub:'https://github.com/dmadon/absence-reporting'       
         },
         {
+            title:'Note Taker',
+            href:'https://note-taker-module11.herokuapp.com/',
+            imgSrc:`${imgNoteTaker}`,
+            gitHub:'https://github.com/dmadon/note-taker' 
+        },
+        {
             title:'Adopt-a-Friend',
             href:'https://dmadon.github.io/adopt-a-friend/',
             imgSrc:`${imgAdoptAFriend}`,
             gitHub:'https://github.com/dmadon/adopt-a-friend' 
-        },
-        {
-            title:'JavaScript Quiz',
-            href:'https://dmadon.github.io/js-quiz/',
-            imgSrc:`${imgJsQuiz}`,
-            gitHub:'https://github.com/dmadon/js-quiz' 
-        },
+        },        
         {
             title:'Weather Dashboard',
             href: 'https://dmadon.github.io/weather-dashboard/',
@@ -42,14 +42,11 @@ function Portfolio(){
             gitHub:'https://github.com/dmadon/weather-dashboard/'
         },
         {
-            title:'Note Taker',
-            href:'https://note-taker-module11.herokuapp.com/',
-            imgSrc:`${imgNoteTaker}`,
-            gitHub:'https://github.com/dmadon/note-taker' 
+            title:'JavaScript Quiz',
+            href:'https://dmadon.github.io/js-quiz/',
+            imgSrc:`${imgJsQuiz}`,
+            gitHub:'https://github.com/dmadon/js-quiz' 
         },
-        
-        
-
     ])
 
     return (  
