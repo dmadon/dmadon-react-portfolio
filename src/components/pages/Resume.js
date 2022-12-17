@@ -1,6 +1,6 @@
 import React from "react";
 import { saveAs } from "file-saver";
-import pdfResume from '../../assets/Deanna_Madon_Resume.pdf'
+import pdfResume from '../../assets/Deanna_Madon_Resume_Electronic.pdf'
 import {motion} from 'framer-motion'
 
 function Resume(){
