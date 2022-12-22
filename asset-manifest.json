@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dmadon-react-portfolio/static/css/main.7682f8c9.css",
-    "main.js": "/dmadon-react-portfolio/static/js/main.1d69b3c7.js",
+    "main.css": "/dmadon-react-portfolio/static/css/main.154d434a.css",
+    "main.js": "/dmadon-react-portfolio/static/js/main.6f17d091.js",
     "static/js/787.4b0c1a62.chunk.js": "/dmadon-react-portfolio/static/js/787.4b0c1a62.chunk.js",
     "static/media/too-good-to-waste-homepage-screenshot.png": "/dmadon-react-portfolio/static/media/too-good-to-waste-homepage-screenshot.141dda47605fe589c101.png",
     "static/media/fontModernLoveGrunge.ttf": "/dmadon-react-portfolio/static/media/fontModernLoveGrunge.541a7b8de9b71949c5bf.ttf",
@@ -14,12 +14,12 @@
     "static/media/Absence Reporting Screenclip RESIZED.jpg": "/dmadon-react-portfolio/static/media/Absence Reporting Screenclip RESIZED.ff7fcca70d53e3d4615d.jpg",
     "static/media/note-taker-screenshot.jpg": "/dmadon-react-portfolio/static/media/note-taker-screenshot.238ea762643bc8df21f5.jpg",
     "index.html": "/dmadon-react-portfolio/index.html",
-    "main.7682f8c9.css.map": "/dmadon-react-portfolio/static/css/main.7682f8c9.css.map",
-    "main.1d69b3c7.js.map": "/dmadon-react-portfolio/static/js/main.1d69b3c7.js.map",
+    "main.154d434a.css.map": "/dmadon-react-portfolio/static/css/main.154d434a.css.map",
+    "main.6f17d091.js.map": "/dmadon-react-portfolio/static/js/main.6f17d091.js.map",
     "787.4b0c1a62.chunk.js.map": "/dmadon-react-portfolio/static/js/787.4b0c1a62.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7682f8c9.css",
-    "static/js/main.1d69b3c7.js"
+    "static/css/main.154d434a.css",
+    "static/js/main.6f17d091.js"
   ]
 }
