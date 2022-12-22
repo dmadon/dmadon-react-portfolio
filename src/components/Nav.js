@@ -17,7 +17,6 @@ function Nav({currentPage, setCurrentPage, navOptions}){
                         <li className="mx-3">
                             <a  href={`#${option}`} className={`${currentPage === option && 'nav-active'} highlight`}
                                 onClick={() => {setCurrentPage(option)
-                                console.log(option)
                             }}>
                                 {option}
                             </a>

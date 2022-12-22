@@ -1,16 +1,9 @@
 import React from "react";
-import { saveAs } from "file-saver";
 import pdfResume from '../../assets/Deanna_Madon_Resume_Electronic.pdf'
 import {motion} from 'framer-motion'
 
 function Resume(){
-    const saveFile = () => {
-        saveAs(
-            `${pdfResume}`,
-            "Deanna_Madon_Resume.pdf"
-        )
-    }
-
+  
     
     const itemVariants = {
         start: {            
@@ -32,10 +25,15 @@ function Resume(){
 
         <div>
 
-            <div className="btn-container d-flex flex-row justify-content-between">
-                <button className="resumeBtn text-center" type="submit" onClick={saveFile}>Download My Resume</button>
-                <a className="resumeBtn text-center" type="button" href="https://zety.com/profile/deanna-madon" target="_blank">View My Electronic Resume</a>
+            <div className="resume-wrapper container d-flex flex-row justify-content-center">
+                <iframe id="resume-preview" src={pdfResume}></iframe>
             </div>
+
+
+            {/* <div className="btn-container d-flex flex-row justify-content-between">
+                <a className="resumeBtn text-center" type="button" href={pdfResume} target="_blank">Open</a>
+                <a className="resumeBtn text-center" type="button" href="https://zety.com/profile/deanna-madon" target="_blank">View My Electronic Resume</a>
+            </div> */}
 
             <div className="container">
                 <h2 className="section-title text-center py-3">Proficiencies</h2>
