@@ -6,9 +6,10 @@ Hello! I am excited to present this portfolio page to you. I am a job-seeker tha
 
 This portfolio page will provide you with some important information about me:
 
-Information about my work ethic and core beliefs
-Links to a few of my projects, with room for more in the future (in the meantime, enjoy those sweet pics of the Starship Enterprise!)
-My contact information
+* Information about my work ethic and core beliefs
+* Links to a few of my projects
+* Downloadable resume
+* Contact information
 
 ## Technologies Used
 
