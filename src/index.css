@@ -404,6 +404,10 @@ button:hover, .btn-container a:hover {
     width: 50%
   }
 
+  .project-details p, .project-details li{
+    font-size: 1.12rem;
+  }
+
 }
 
 
@@ -444,6 +448,10 @@ button:hover, .btn-container a:hover {
 
   .project-wrapper{
     width:100%;
+  }
+
+  .project-details p, .project-details li{
+    font-size: .9rem;
   }
   
 }
@@ -533,6 +541,10 @@ button:hover, .btn-container a:hover {
     margin: 10px auto
   }
 
+  .project-details ul{
+    padding-left: 1rem;
+  }
+
 }
       
   /*MEDIA QUERY FOR SCREEN SIZES 443PX WIDE OR SMALLER*/
@@ -560,6 +572,19 @@ button:hover, .btn-container a:hover {
     font-size: 15px;
     padding: 10px 0;
   } 
+
+  .project-article{
+    flex-direction: column !important;
+  }
+
+  .project-img, .project-details{
+    width: 100%;
+  } 
+  
+  .project-details{
+    border-left: 2px solid black;
+    border-top: none;
+  }
   
 }
 
